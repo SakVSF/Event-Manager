@@ -449,7 +449,7 @@ void deleteevent(char username[])
         rename("tempp.dat",username);
     }
 }
-void modify(char username[])
+void modify(char username[])                #modifying the events stored in the list 
 {
     event e,g;
     char inp[SIZE];
